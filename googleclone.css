@@ -1,9 +1,12 @@
+body{
+    font-family: sans-serif;
+}
 .header{
     font-family: sans-serif;
     justify-content: flex-end;
     font-size: 14px;
     display: flex;
-   
+    
 }
 .header a{
     text-decoration: none;
@@ -32,21 +35,21 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 300px;
     height: 70%;
 }
 #inputSection{
-    width: 70%;
+    
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 #inputSection #takeInput{
+    
     position: relative;
     width: 50%;
     display: flex;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -64,7 +67,7 @@
     margin-right: auto;
     width: 100%;
     height: 40px;
-    border-width: 0.2px;
+    border-width: 1px;
     border-radius: 50px;
     padding-left: 20px;
     outline: none;
@@ -77,4 +80,38 @@
 #inputSection #takeInput input:focus{
     box-shadow: 0px 1px 5px #61C5FA;
     border-width: 0px;
+}
+#inputSection #differentButtons{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#inputSection #differentButtons button{
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    margin-right: 20px;
+    border: 1px solid #f8f9fa;
+    transition: 0.5s;
+    border-radius: 7px;
+    background-color: rgba(245, 245, 245, 0.479);
+}
+#inputSection #differentButtons button:hover{
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.192);
+    background-color: rgba(136, 126, 126, 0.1);
+}
+#langSelect{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#langSelect a{
+    text-decoration: none;
+    padding-left: 15px;
 }
