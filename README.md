@@ -1,6 +1,6 @@
 ### <p align="center"> 🎄 Google Clone Made in Only HTML and CSS 🎄 </p>
 
-### <p align="center"> ✨ [Click Here To Visit](https://samarpancoder2002.github.io/Google-Clone/) </p>
+### <p align="center"> ✨ [Click Here To Visit](https://google-clone-by-samarpan.netlify.app/) </p>
 
 
 
